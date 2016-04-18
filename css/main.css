@@ -724,6 +724,7 @@ button{
 }
 
 #info_simplon{
+  padding-top: 7px;
   border-radius: 6px;
   margin-top: 20%;
   font-size: 1.4em;
