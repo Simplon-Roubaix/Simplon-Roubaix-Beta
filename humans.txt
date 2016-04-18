@@ -1,0 +1,16 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+/*sabrina / www.coloredcloud.fr*/
+/*Othman*/
+/*Thierry*/
+/*Thanh*/
+/*Alexis*/
+
+<a href="http://www.freepik.com">Designed by Freepik</a>
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Apache Server Configs, jQuery, Modernizr, Normalize.css

@@ -1,0 +1,1413 @@
+/*! HTML5 Boilerplate v5.2.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* ===========================================   NAVBAR  ========================================= */
+#logo1{
+    transition:all 0.9s ease;
+    width: 150px;
+    margin-top: -5%;
+    margin-left: 15%;
+}
+#containeracc{
+    transition:all 0.9s ease;
+      font-family: 'Josefin sans', serif;
+    width: 100%;
+    background-color: white;
+    font-size: 1.6em;
+    height: 70px;
+    opacity: 1;
+    padding-top: 0%;
+}
+.navbar-collapse {
+    background-color: white;
+}
+.navbar-collapse a{
+    text-align: center;
+}
+
+nav .navbar-header {
+      font-family: 'Josefin sans', serif;
+}
+.navbar-toggle{
+  transition : all 0.9s ease;
+    padding: 10px;
+    margin-top: 8px;
+    border: 0px;
+}
+.navbar-toggle.sticky{
+    padding-top: 17px;
+    padding-bottom: 1px;
+    margin-top: -2px;
+    border: 0px;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: white;
+}
+nav button {
+    color: black;
+    box-shadow: none;
+}
+#monmenu ul {
+    transition:all 0.5s ease;
+    margin-top: 2%;
+}
+#monmenu li a{
+    color: black;
+}
+#monmenu a:hover{
+    color: grey;
+    opacity: 1;
+        border-bottom: 2px solid black;
+}
+#mainmenu{
+	box-shadow: 0px 1px 5px gray;
+    background-color: white;
+    transition: all 0.9s ease;
+    opacity: 1;
+}
+#containeracc.sticky {
+   font-family: 'Josefin sans', serif;
+    width: 100%;
+    height: 50px;
+    padding-top: 0%;
+}
+#mainmenu:hover{
+    opacity: 1
+}
+#monmenu ul.sticky {
+    margin-top: 0%;
+}
+#logo1.sticky{
+    width: 125px;
+    margin-top: -8%;
+    margin-left: 2%;
+}
+
+.row {
+	margin-right: 0px;
+}
+
+@media screen and (max-width: 444px){
+  #logo1 {
+    display: none;
+  }
+}
+@media screen and (max-width: 307px){
+  #logo1 {
+display: none;
+  }
+}
+/* =====================================   Carousel settings ================================== */
+header {
+width: 100%;
+margin-top: 70px;
+background-size: cover;
+}
+.slider .indicators {
+    margin-top: -2%;
+    z-index: 1003;
+}
+#text1 {
+    border: 1px solid white;
+    border-radius: 5%;
+    width: 22%;
+    background-color: rgba(175,157,108,0.9);
+    padding: 2%;
+}
+#text2 {
+        border: 1px solid white;
+    width: 22%;
+    border-radius: 5%;
+    background-color: rgba(19,35,45,0.9);
+    padding: 2%;
+}
+#text3 {
+        border: 1px solid white;
+    width: 22%;
+    border-radius: 5%;
+    background-color: rgba(251,185,201,0.9);
+    padding: 2%;
+}
+#text4 {
+        border: 1px solid white;
+    width: 22%;
+    border-radius: 5%;
+    background-color: rgba(46,45,45,0.9);
+    padding: 2%;
+}
+
+@media screen and (max-width: 600px) {
+  .slider {
+    display: none;
+  }
+}
+/* ==========================================  Content  ======================================== */
+#simplonglanding {
+  margin-top: 5%;
+  background-color: #69B8CE;
+}
+#contentrow {
+    font-family: 'Josefin sans', serif;
+    margin-bottom: 5%;
+}
+#contentrow h2{
+    font-size: 1.4em;
+    font-weight: bold;
+}
+#contentrow p{
+    line-height: 30px;
+    font-size: 1.3em;
+}
+#contentrow{
+    margin-right: 0;
+}
+iframe {
+    width: 30%;
+}
+#twitter {
+    margin-top: 10.3%;
+}
+#photo1 {
+    width: 75%;
+}
+#secondcontent {
+    margin-top: 5%;
+}
+#texte2 {
+}
+#texte3 {
+  font-family: "Varela Round", sans-serif;
+  text-align: justify;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+#soustexte3 h2{
+  font-size: 1.3em;
+    opacity: 0.7;
+}
+#soustexte3 p{
+  font-size: 1em;
+}
+#soustexte4 h2{
+    opacity: 0.7;
+    font-size: 1.3em;
+}
+#soustexte4 p{
+  font-size: 1em;
+}
+#titre1 {
+	width: 40%;
+	padding-bottom: 7%;
+    margin-top: 10%;
+}
+#sponsor{
+	padding-top: 3%;
+	padding-bottom: 3%;
+	box-shadow: 0px 1px 5px blue;
+	background-color: #E6E6E6;
+}
+#sponsor img {
+	padding-right: 3%;
+	width: 17%;
+}
+@media screen and (max-width: 990px) {
+  #logo3 {
+    display: none;
+  }
+}
+
+/* #######################################################################################################
+#####################################  DEBUT PAGE SIMPLON GENERAL  #######################################
+####################################################################################################### */
+
+#fonthtml{
+    font-family: 'Josefin sans', serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+.imgbody{
+width: 100%;
+height: 250px;
+margin-top: 5.3%;
+}
+h1{
+    text-align: center;
+}
+/* -------------------------- debut de l'effet du boutton ---------------------------*/
+.btn3d {
+    position:relative;
+    top: -6px;
+    border:0;
+     transition: all 40ms linear;
+     margin-top:10px;
+     margin-bottom:10px;
+     margin-left:2px;
+     margin-right:2px;
+}
+.btn3d:active:focus,
+.btn3d:focus:hover,
+.btn3d:focus {
+    -moz-outline-style:none;
+         outline:medium none;
+}
+.btn3d:active, .btn3d.active {
+    top:2px;
+}
+.btn3d.btn-magick {
+    color: #fff;
+    box-shadow:0 0 0 1px #e31347 inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 0 8px 0 0 #e31347, 0 8px 8px 1px rgba(0,0,0,0.5);
+    background-color:#e31347;
+}
+/* ---------------------- fin de l'effet du boutton ----------------------*/
+#general {
+font-size: 12px;
+font-weight: bold;
+margin-top: 3%;
+margin-bottom: 5%;
+margin-right: 4%;
+line-height: 35px;
+text-indent: 30px;
+}
+#simplong {
+  margin-top: 3%;
+}
+#simplong img{
+    width: 40%;
+    margin-left: 20%;
+}
+#generalvideo{
+margin-bottom: 2%;
+}
+#footersimplong{
+    margin-top: 5%;
+}
+
+@media (max-width: 600px) {
+    #general{
+        margin-top: 100px;
+    }
+}
+
+
+/* #######################################################################################################
+#####################################  FIN PAGE SIMPLON GENERAL    #######################################
+####################################################################################################### */
+
+
+
+/* ==========================================  Footer ========================================== */
+footer{
+    text-align: center;
+    background-image: url(../img/footer-bluethierry.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 0;
+    bottom: 0;
+    height: 100%;
+}
+footer ul{
+    padding-left: 0;
+    color: white;
+    text-align: left;
+    list-style-type: none;
+    }
+.paddingbot{
+    padding-left: 5%;
+}
+ #paddingbot {
+  display: flex;
+}
+.paddingbot li {
+  margin-right: 5px;
+}
+footer h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+}
+footer li {
+    font-size: 1em;
+}
+#icon {
+    margin-top: 2%;
+    font-size: 3.5em;
+}
+#icon a{
+    padding-top: 2%;
+    color: white;
+    padding-right: 2%;
+    opacity: 0.6;
+    transition: all 0.5s ease;
+}
+#icon a:hover {
+    color: white;
+    opacity: 1;
+}
+
+#sitemap a {
+    text-decoration: none;
+}
+footer li{
+    color: white;
+    font-size: 1.2em;
+    opacity: 0.6;
+    transition: all 0.2s ease;
+}
+footer li:hover {
+    color: pink;
+    opacity: 1;
+}
+#sitemap {
+    margin-top: 2%;
+}
+footer hr{
+    margin: auto;
+    width: 930px;
+    opacity: 0.3;
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+footer p {
+    color: white;
+    transition : all 0.3s ease;
+}
+footer p:hover {
+    color: grey;
+    opacity: 1;
+}
+.modal-footer p{
+    color: black;
+}
+#modal1 {
+    text-align: justify;
+}
+.modal .modal-footer .btn, .modal .modal-footer .btn-large, .modal .modal-footer .btn-flat {
+    float: none;
+    margin-left: 45%;
+    text-decoration: none;
+}
+footer .row {
+    margin-right: 0;
+    margin-left: 0;
+}
+#logobot {
+    opacity: 0.7;
+    width: 180px;
+    margin-left: 0;
+    margin-bottom: 10px;
+}
+
+
+/*#######################################################################################################
+#####################################          PAGE CURSUS          #######################################
+######################################################################################################## */
+
+.containercursus {
+    margin-top: 60px;
+    overflow: hidden;
+}
+.firstcol span {
+    color: #ff5a59;
+    font-weight: bold;
+}
+.banner {
+    clear: both;
+}
+.imgbanner {
+    width: 100%;
+    }
+
+.headercursus{
+  margin-top: 70px;
+  clear: both;
+  background-image: url(../img/banner_cursus2.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  height: 250px;
+}
+.headerresponsive{
+    margin-top: 70px;
+  clear: both;
+  background-image: url(../img/banner_cursus_res.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  height: 250px;
+
+}
+
+.material-icons { /*------- couleurs des petites icones en debut de btn ----- */
+    color: #ff5a59;
+}
+
+.secondcol span {
+    color: #ff5a59;
+    font-weight: bold;
+}
+.rowblock2 span {
+    color: #rgb(38, 247, 178);
+    font-weight: bold;
+}
+ #doc {
+     background-color: rgb(0, 227, 166);
+     height: 5em;
+ }
+#troncommun {
+    background-color: rgb(24, 0, 55);
+    height: 40%;
+
+}
+#developpement {
+    background-color: rgb(24, 0, 55);
+    height: 40%;
+
+}
+#projet {
+    background-color: rgb(24, 0, 55);
+    height: 40%;
+
+}
+.objectif li {
+    list-style-type: disc;
+
+}
+
+p {
+    text-align: justify;
+}
+/*------les blocs colores du cursus -----*/
+.grid {
+	padding: 20px 20px 100px 20px;
+	max-width: 1300px;
+	margin: 0 auto;
+	list-style: none;
+	text-align: center;
+}
+
+.grid li {
+	display: inline-block;
+	width: 350px;
+	padding: 5px;
+	text-align: left;
+	position: relative;
+}
+
+.grid figure {
+	margin: 0;
+	position: relative;
+}
+
+.grid figure img {
+	max-width: 100%;
+	display: block;
+	position: relative;
+}
+
+.grid figcaption {
+	position: absolute;
+    width: 100%;
+	top: 66%;
+	left: 0;
+	padding: 20px;
+	background: #2c3f52;
+	color: #ed4e6e;
+}
+
+.grid figcaption h3 {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+
+.grid figcaption a {
+    width: 70px;
+    height: 40px;
+	text-align: center;
+	padding: 6px 10px;
+	border-radius: 2px;
+	display: inline-block;
+	background: #ed4e6e;
+    font-size: 1.4em;
+	color: #fff;
+}
+
+/* Individual Caption Styles */
+
+/* Caption Style 3 */
+.cs-style-3 figure {
+	overflow: hidden;
+}
+.cs-style-3 figcaption a {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+
+/*@media screen and (min-width: 1200px) {
+
+    .headercursus{
+
+      height: 300px;
+    }
+}*/
+
+@media screen and (max-width: 31.5em) {
+	.grid {
+		padding: 6px 0px 100px;
+	}
+	.grid li {
+		width: 100%;
+		min-width: 300px;
+	}
+
+}/*------fin blocs colores du cursus -----*/
+
+
+ @media screen and (max-width: 601px) {
+.imgbody{
+     display: none;
+}
+.schemaformation {
+       display: none;
+}
+.objectif {
+    display: none;
+}
+.collapsible-body p {
+    font-size: 0,2em;
+}
+p {
+    font-size: 0.9em;
+    margin-left: 3%;
+}
+h1 {
+    font-size: 2em;
+}
+}
+
+ /*@media screen and (max-width: 599px) {
+
+.headercursus {
+    display: none;
+
+}*/
+
+
+/* #######################################################################################################
+#####################################          PAGE CONTACT           #######################################
+####################################################################################################### */
+
+#banner_contact{
+  margin-top:5%;
+  width:100%;
+}
+#info_hachemi{
+ margin-bottom: 5%;
+}
+#info_perso{
+margin-top: 5%;
+ text-align: center;
+}
+
+button{
+  margin-bottom: 4%;
+}
+
+.info_perso2{
+  padding-top: 8%;
+}
+
+#info_simplon{
+  border-radius: 6px;
+  margin-top: 20%;
+  font-size: 1.4em;
+  color: white;
+  background-color:rgb(0, 165, 142);
+}
+
+#hour{
+margin-top:15%;
+margin-left: 10%;
+font-size:1.3em;
+}
+
+#formul{
+  margin-top: 80%;
+  margin-bottom: 10%;
+}
+
+
+button{
+  margin-bottom:5%;
+}
+
+@media screen and (width: 768px) {
+  #my_map{
+    display: none;
+  }
+
+  #banner_contact{
+  display: none;
+  }
+#info_perso{
+  text-align: center;
+ margin-top: 15%;
+padding-left:20%;
+}
+
+#info_hachemi{
+text-align: center;
+}
+}
+
+
+@media screen and (max-width: 600px) {
+
+#info_perso{
+  margin-top: 20%;
+}
+#my_map{
+  display: none;
+}
+#formul{
+  margin-top: 10%;
+}
+#banner_contact{
+display: none;
+}
+}
+
+@media screen and (max-width: 320px) {
+  #info_perso{
+    margin-top: 40%;
+  }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 990px) {
+    hr{
+        display: none;
+    }
+    footer ul{
+        display: none;
+    }
+    footer h2{
+        width: 80px;
+    }
+    .paddingbot {
+        border-left: 0px;
+    }
+    div#sitemap {
+        display: inline-flex;
+    }
+}
+
+
+/* #######################################################################################################
+#####################################          PAGE ADEP           #######################################
+######################################################################################################## */
+
+
+
+/* ##########   Section principale   ########## */
+
+/* suppression des pointillés lors du clic dans toutes les pages */
+a:focus{
+  outline: 0;
+}
+
+
+
+.section_principale{
+  margin-top: 90px;
+  padding-bottom: 80px;
+}
+
+/* titres */
+
+.section_principale h1{
+  font-size: 1.5em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* paragraphes */
+
+.section_principale p{
+  font-size: 1.2em;
+  text-indent: 20px;
+  text-align: justify;
+  line-height: 20px;
+}
+
+.description{
+  line-height: 25px!important;
+  margin: 50px 0 30px 0;
+}
+
+/* Liens */
+
+.section_principale a{
+  margin-top: 30px;
+}
+
+.section_principale ul li{
+  list-style-type: disc!important;
+}
+
+/* 3 paragraphes conditionnels */
+
+.conditions{
+    margin-bottom: 40px;
+    padding: 20px 0;
+}
+}
+
+.conditions p{
+  line-height: 20px;;
+  text-align: center;
+}
+
+.conditions_small ul li{
+  margin-bottom: 15px;
+}
+
+.conditions_small{
+    font-size: 1.2em;
+}
+
+/* logos des conditions */
+
+.conditions img{
+  display: block;
+  width: 100px;
+  margin: auto;
+}
+
+.conditions .alignement-droite {
+  text-align: center;
+}
+
+.conditions .alignement-gauche {
+  text-align: left;
+}
+
+
+
+#lien_adep{
+  margin-right: 30px;
+  font-weight: bold;
+  float: right;
+  border-radius: 6px;
+  border: 3px solid rgba(0, 0, 0, 0.15);
+  padding: 10px;
+  margin-top: 30px;
+  color: rgba(0, 0, 0, 0.35);
+  -webkit-transition: background-color .3s, color .3s;
+  transition: background-color .3s, color .3s;
+}
+
+#lien_adep:hover{
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.40);
+}
+
+
+/* ##########   Suppresion du style ABBR   ########## */
+
+abbr{
+  text-decoration: none;
+}
+
+abbr[title], abbr[data-original-title] {
+    border-bottom: 0;
+    cursor: default;
+}
+
+/* Media Lab */
+
+.image_medialab{
+  width: 70%;
+  display: block;
+  margin: 20px auto 35px auto;
+}
+
+.medialab {
+  color: #fff;
+  background-color: rgba(227, 19, 71, 0.85);
+  margin-top: 50px;
+  padding: 25px 15px 100px 15px;
+  border-radius: 2px;
+}
+
+.medialab h2{
+  font-size: 1.6em;
+  margin-bottom: 60px;
+    }
+
+.medialab p{
+  font-size: 1.2em;
+  line-height: 30px;
+}
+
+#lien_medialab{
+  font-weight: bold;
+  margin-right: 30px;
+  float: right;
+  border-radius: 6px;
+  border: 3px solid #fff;
+  padding: 10px;
+  margin-top: 30px;
+  color: #fff;
+  -webkit-transition: background-color .3s;
+  transition: background-color .3s;
+}
+
+#lien_medialab:hover{
+  color: #fff;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+/* ##########   Section Partenaires   ########## */
+
+.partenaires_adep{
+  background-color: #fff;
+  padding: 10px 30px;
+}
+
+.partenaires_adep h2{
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+.partenaires_adep img{
+  padding: 10%;
+}
+
+
+
+
+
+
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width:768px) {
+
+/* ##########   Header   ########## */
+
+.header_adep{
+  background-image: url(../img/banniereADEPsm.png);
+  height: 225px;
+}
+
+  /* ##########   Section principale   ########## */
+
+  /* titres */
+
+  .section_principale h1{
+    margin-top: 0;
+    font-size: 2em;
+    margin-bottom:0;
+    text-align: center;
+  }
+
+  /* paragraphes */
+
+  .section_principale p{
+    font-size: 1.15em;
+    text-indent: 20px;
+    text-align: justify;
+    line-height: 28px;
+  }
+
+  .description{
+    line-height: 35px!important;
+    margin: 50px 0 20px 0;
+  }
+
+  /* 3 paragraphes conditionnels */
+
+  .conditions p{
+    font-size: 1.1em;
+    text-align: center;
+  }
+
+  .conditions{
+      margin-bottom: 30px;
+      font-size: 1.1em;
+  }
+
+  .conditions img{
+    width: 150px;
+  }
+
+  .paragraphes{
+    margin-bottom: 50px;
+  }
+
+/* boutons liens */
+
+  .section_principale a{
+    margin: 60px auto 0 auto;
+    text-align: center;
+    display: block;
+    width: 200px;
+    float: none;
+  }
+
+/* ##########   Section MediaLab   ########## */
+
+.medialab {
+  padding: 25px 40px 30px 40px;
+}
+
+  .medialab h2{
+    font-size: 1.7em;
+  }
+
+  .image_medialab{
+    width: 50%;
+  }
+
+  .partenaires_adep img{
+    padding: 8%;
+  }
+}
+
+
+
+
+
+
+
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width:992px) {
+
+  .header_adep{
+    background-image: url(../img/banniereADEPmd.png);
+    height: 250px;
+  }
+
+  /* ##########   Section principale   ########## */
+
+  .section_principale{
+    margin-top: 90px;
+    padding-bottom: 80px;
+  }
+
+  .section_principale p{
+    font-size: 1.25em;
+    text-indent: 20px;
+    text-align: justify;
+    margin-right: 15px;
+    margin-left: 15px;
+    line-height: 28px;
+  }
+
+  .description{
+    line-height: 35px!important;
+    margin: 100px 0 80px 0;
+  }
+
+  .section_principale h1{
+    margin-top: 0;
+    font-size: 2.3em;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  /* Liens */
+
+  .section_principale a{
+      margin: 80px auto 30px auto;
+  }
+
+  /* logos des conditions */
+
+  .conditions img{
+    width: 200px;
+  }
+
+.paragraphes{
+  padding: 20px 0;
+}
+
+#lien_adep{
+  margin-right: 30px;
+  float: right;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+    /* 3 paragraphes conditionnels */
+
+    .conditions{
+      border-top: 3px solid rgba(0,0,0,0.1);
+      border-bottom: 3px solid rgba(0,0,0,0.1);
+      padding: 40px 0;
+    }
+
+.conditions p{
+      font-size: 1.15em;
+      text-align: center;
+    }
+
+.section_principale .conditions{
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+
+.dispositif{
+  margin-top: 40px;
+}
+
+.medialab{
+  margin-top: 50px;
+  padding: 20px 0 40px 0;
+}
+
+
+.medialab p{
+  font-size: 1.2em;
+}
+
+#lien_medialab{
+  display: block;
+  width: 250px;
+  text-align: center;
+  margin-right: 40px;
+}
+
+/* ##########   Section Partenaires   ########## */
+
+.partenaires_adep h2{
+  font-size: 3em;
+  margin-bottom: 40px;
+}
+
+.partenaires_adep{
+  background-color: #fff;
+  padding: 0 30px 30px 30px;
+}
+
+.partenaires_adep img{
+  padding: 3%;
+}
+
+}
+
+
+
+
+/* Large devices (desktops, 1200px and up) */
+@media (min-width:1200px) {
+
+  .header_adep{
+    background-image: url(../img/banniereADEPl.png);
+    height: 275px;
+  }
+
+.section_principale h1{
+margin-top: 0;
+  }
+
+.section_principale .conditions{
+  margin-top: 0;
+}
+
+.partenaires_adep img{
+  padding: 2%;
+}
+
+}
+
+@media (min-width:1400px) {
+
+  .header_adep{
+    background-image: url(../img/banniereADEPxl.png);
+    height: 275px;
+  }
+}
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers:
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
